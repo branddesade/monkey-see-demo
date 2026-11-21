@@ -21,13 +21,13 @@ const FEATURES = [
 
 export function Features() {
   return (
-    <section id="features" className="border-t border-stone-200 bg-white py-20">
+    <section id="features" className="border-t border-stone-800 bg-stone-950 py-20">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-stone-900">
+          <h2 className="text-3xl font-bold tracking-tight text-stone-100">
             Why teams love working with us
           </h2>
-          <p className="mt-3 text-base text-stone-600">
+          <p className="mt-3 text-base text-stone-400">
             Simple foundations, clear typography, and effortless post-launch edits.
           </p>
         </div>
@@ -36,20 +36,20 @@ export function Features() {
           {FEATURES.map((item) => (
             <div
               key={item.badge}
-              className="rounded-2xl border border-stone-200 bg-stone-50 p-6 transition hover:border-amber-400"
+              className="rounded-2xl border border-stone-800 bg-stone-900 p-6 transition hover:border-amber-400"
             >
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500/15 text-xs font-bold text-amber-700">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-amber-500/10 text-xs font-bold text-amber-400">
                 {item.badge}
               </span>
-              <h3 className="mt-4 text-lg font-semibold text-stone-900">{item.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-stone-600">{item.description}</p>
+              <h3 className="mt-4 text-lg font-semibold text-stone-100">{item.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-stone-400">{item.description}</p>
             </div>
           ))}
         </div>
 
         <div
           id="pricing"
-          className="mt-16 rounded-3xl border border-stone-200 bg-stone-900 p-8 text-white md:flex md:items-center md:justify-between"
+          className="mt-16 rounded-3xl border border-stone-800 bg-stone-900 p-8 text-white md:flex md:items-center md:justify-between"
         >
           <div>
             <h3 className="text-2xl font-bold">Ready to launch your next update?</h3>
