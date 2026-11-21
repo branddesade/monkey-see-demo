@@ -14,23 +14,23 @@ export function Header() {
         </Link>
 
         <nav aria-label="Primary" className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
-          <a href="#features" className="transition hover:text-stone-900">
+          <Link href="/#features" className="transition hover:text-stone-900">
             Features
-          </a>
-          <a href="#showcase" className="transition hover:text-stone-900">
+          </Link>
+          <Link href="/#showcase" className="transition hover:text-stone-900">
             Showcase
-          </a>
-          <a href="#pricing" className="transition hover:text-stone-900">
+          </Link>
+          <Link href="/pricing" className="transition hover:text-stone-900">
             Pricing
-          </a>
+          </Link>
         </nav>
 
-        <a
-          href="#get-started"
+        <Link
+          href="/pricing"
           className="rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-amber-600"
         >
           Get Started
-        </a>
+        </Link>
       </div>
     </header>
   );
