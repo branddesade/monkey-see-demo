@@ -30,8 +30,15 @@ export function Hero() {
         </div>
 
         <div className="lg:col-span-5">
-          <div className="rounded-3xl border border-amber-900 bg-gradient-to-br from-amber-950 via-stone-900 to-stone-950 p-8 shadow-sm">
-            <div className="rounded-2xl bg-stone-900 p-6 shadow-sm border border-stone-800">
+          <div className="rounded-3xl border border-amber-900 bg-gradient-to-br from-amber-950 via-stone-900 to-stone-950 p-6 shadow-sm">
+            <div className="overflow-hidden rounded-2xl border border-stone-800">
+              <img
+                src="/uploads/0r2jf-1-toucan.jpg"
+                alt="Vibrant toucan perched on a branch"
+                className="h-64 w-full object-cover"
+              />
+            </div>
+            <div className="mt-4 rounded-2xl border border-stone-800 bg-stone-900 p-6 shadow-sm">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
                   Live Studio Snapshot
