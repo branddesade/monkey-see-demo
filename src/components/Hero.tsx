@@ -18,7 +18,7 @@ export function Hero() {
               href="#features"
               className="rounded-xl bg-stone-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-stone-800"
             >
-              Explore Our Work
+              Explore
             </a>
             <a
               href="#pricing"
