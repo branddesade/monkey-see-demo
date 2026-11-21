@@ -9,7 +9,7 @@ export function Header() {
             M
           </span>
           <span className="text-xl font-extrabold tracking-tight text-stone-900">
-            Monkey See
+            Monkey Monkey
           </span>
         </Link>
 
