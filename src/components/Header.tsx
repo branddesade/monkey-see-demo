@@ -15,21 +15,21 @@ export function Header() {
 
         <nav aria-label="Primary" className="hidden md:flex items-center gap-8 text-sm font-medium text-stone-400">
           <a href="#features" className="transition hover:text-stone-200">
-            Features
+            Care Guide
           </a>
           <a href="#showcase" className="transition hover:text-stone-200">
-            Showcase
+            Featured Toucan
           </a>
           <a href="#pricing" className="transition hover:text-stone-200">
-            Pricing
+            Adoption Info
           </a>
         </nav>
 
         <a
-          href="#get-started"
+          href="#pricing"
           className="rounded-xl bg-amber-500 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-amber-600"
         >
-          Get Started
+          Adopt Now
         </a>
       </div>
     </header>

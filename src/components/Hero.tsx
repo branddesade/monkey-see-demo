@@ -4,14 +4,15 @@ export function Hero() {
       <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <span className="inline-flex items-center rounded-full bg-amber-950 px-3 py-1 text-xs font-semibold text-amber-200">
-            Fresh digital craft, shipped fast
+            Ethical, hand-raised avian companions
           </span>
           <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-stone-50 sm:text-6xl">
-            Design that sparks curiosity at first glance.
+            Bring home a vibrant pet toucan of your own.
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-stone-400">
-            We build bright, expressive websites for brands that refuse to blend into the
-            background. Update copy, colors, and sections anytime without touching code.
+            Intelligent, curious, and full of tropical personality. We match caring homes with
+            healthy, socialized toucans and guide you through aviary setup, daily fruit nutrition,
+            and lifelong care.
           </p>
           <div id="get-started" className="mt-8 flex flex-wrap items-center gap-4">
             <a
@@ -24,7 +25,7 @@ export function Hero() {
               href="#pricing"
               className="rounded-xl border border-stone-700 bg-stone-900 px-6 py-3 text-sm font-semibold text-stone-200 transition hover:bg-stone-800"
             >
-              See Plans
+              Adoption Info
             </a>
           </div>
         </div>
@@ -41,16 +42,16 @@ export function Hero() {
             <div className="mt-4 rounded-2xl border border-stone-800 bg-stone-900 p-6 shadow-sm">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-                  Live Studio Snapshot
+                  Available for Adoption
                 </span>
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" />
               </div>
               <p className="mt-4 text-2xl font-bold text-stone-50">
-                100+ playful launches shipped this year
+                Meet Pico — Toco Toucan, 1 Year Old
               </p>
               <p className="mt-2 text-sm text-stone-400">
-                Try asking the SitePortal chatbot to change our header, restyle buttons, or swap
-                this card’s headline!
+                Playful, hand-fed, and thriving on fresh papaya, blueberries, and enrichment
+                perches. Ready for a spacious indoor aviary.
               </p>
             </div>
           </div>

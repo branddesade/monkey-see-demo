@@ -1,20 +1,20 @@
 const FEATURES = [
   {
-    title: 'Instant Visual Updates',
+    title: 'Spacious Aviary Setup',
     description:
-      'Describe tweaks in plain language and preview them live before anything touches production.',
+      'Toucans love to hop and glide. We help you plan a safe, roomy enclosure with natural perches and bright indirect light.',
     badge: '01',
   },
   {
-    title: 'Checkpoint Rollbacks',
+    title: 'Fresh Fruit-First Diet',
     description:
-      'Every change is saved as Edit 1, Edit 2, Edit 3 so you can experiment freely and rewind anytime.',
+      'Low-iron pellets paired daily with papaya, blueberries, melon, and mango keep their plumage glossy and energy high.',
     badge: '02',
   },
   {
-    title: 'Built for Speed',
+    title: 'Lifelong Vet & Care Support',
     description:
-      'Powered by modern Next.js and Tailwind CSS for crisp performance on mobile and desktop.',
+      'Every adoption includes avian health records, enrichment tips, and ongoing guidance from our sanctuary specialists.',
     badge: '03',
   },
 ];
@@ -25,10 +25,10 @@ export function Features() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-stone-100">
-            Why teams love working with us
+            Everything you need to welcome a toucan
           </h2>
           <p className="mt-3 text-base text-stone-400">
-            Simple foundations, clear typography, and effortless post-launch edits.
+            Responsible adoption starts with preparation, proper nutrition, and a joyful environment.
           </p>
         </div>
 
@@ -52,16 +52,16 @@ export function Features() {
           className="mt-16 rounded-3xl border border-stone-800 bg-stone-900 p-8 text-white md:flex md:items-center md:justify-between"
         >
           <div>
-            <h3 className="text-2xl font-bold">Ready to launch your next update?</h3>
+            <h3 className="text-2xl font-bold">Ready to adopt your feathered companion?</h3>
             <p className="mt-2 text-sm text-stone-300">
-              Start chatting with your portal assistant to customize this page in seconds.
+              Every adoption includes a complete avian wellness check, starter low-iron diet kit, and lifetime care support.
             </p>
           </div>
           <a
             href="#showcase"
             className="mt-6 inline-block rounded-xl bg-amber-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-amber-400 md:mt-0"
           >
-            Back to Top
+            Meet Pico
           </a>
         </div>
       </div>
